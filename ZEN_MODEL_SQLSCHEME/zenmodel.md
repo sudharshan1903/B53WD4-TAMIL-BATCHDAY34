@@ -97,21 +97,21 @@ SELECT * FROM Class;
 ### Update course records
 ```sql
 UPDATE Course
-SET CourseName = 'New Course Name', Description = 'New Description', Duration = 10
+SET CourseName = 'PER INOM VAIKALA', Description = 'INOM DECIDE PANNALA', Duration = 10
 WHERE CourseID = 1;
 ```
 
 ### Update instructor records
 ```sql
 UPDATE Instructor
-SET FirstName = 'New First Name', LastName = 'New Last Name', Email = 'newemail@example.com', Phone = '123-456-7890'
+SET FirstName = 'POONA MANI', LastName = 'SAARA PAAMBU', Email = 'PANNIPANDARAM@THUG.COM', Phone = '9999999999'
 WHERE InstructorID = 1;
 ```
 
 ### Update student records:
 ```sql
 UPDATE Student
-SET FirstName = 'New First Name', LastName = 'New Last Name', Email = 'newemail@example.com', Phone = '123-456-7890'
+SET FirstName = 'POONA MANI', LastName = 'SAARA PAAMBU', Email = 'PANNIPANDARAM@THUG.COM', Phone = '9999999999'
 WHERE StudentID = 1;
 ```
 
